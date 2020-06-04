@@ -1,0 +1,19 @@
+class test67 {
+
+    int imyametoda(int a, int b, int c, int d) {
+        int rezultatmetoda = a + b - c + d;
+        return rezultatmetoda;
+
+    }
+}
+
+class test68{
+    public static void main(String[] args) {
+        test67 t = new test67();
+
+        System.out.println(t.imyametoda(32,43,21,32));
+
+    }
+     
+
+}
